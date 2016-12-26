@@ -3,11 +3,16 @@
 #3) 직장 동료 클래스를 사람 클래스를 이용해서 만듭시다.
 #4) 사람 기본 요소 외 별도의 추가 사항은 직급
 
-class Human :
-    name = "화강윤"
-    age = "29"
-    sex = "남"
+# class Human :
+#     name = "화강윤"
+#     age = "29"
+#     sex = "남"
+#
+#
+# class Coworker(Human) :
+#     position
 
-
-class Coworker(Human) :
-    position
+x=3
+y=2
+if x>y :
+    print("멍충아")

@@ -3,25 +3,25 @@
 #집합 set
 
 
-#list []
-# print("list")
-# print ([1, 2, 3])
-#여기부터
-# list_a = [1,2,3]
-# print(list_a)
-# # print (type([1, 2, 3]))
-# ## index는 0부터 시작합니다. 숫자가 어떻게 1부터 시작하냐. 0부터 시작한다!
-# print(list_a[0])
+list []
+print("list")
+print ([1, 2, 3])
+여기부터
+list_a = [1,2,3]
+print(list_a)
+# print (type([1, 2, 3]))
+## index는 0부터 시작합니다. 숫자가 어떻게 1부터 시작하냐. 0부터 시작한다!
+print(list_a[0])
 #
-# # 슬라이스
-# print(list_a[0:2])
-# list_a.append(4)
-# print(list_a)
-# list_a.remove(2)
-# print(list_a)
-# #클리어
-# list_a.clear()
-# print(list_a)
+# 슬라이스
+print(list_a[0:2])
+list_a.append(4)
+print(list_a)
+list_a.remove(2)
+print(list_a)
+#클리어
+list_a.clear()
+print(list_a)
 
 # # tuple (1, ) <<괄호만 넣으면 튜플 인지 못해
 print("tuple")
