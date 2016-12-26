@@ -16,7 +16,9 @@ print("오케이, 오늘은 " + country + "으로 갑시다!")
 
 if country == "한국" :
     print(random.choice(kor) +" 식당으로 가시죠" )
-if country == "일본" :
+elif country == "일본" :
     print (random.choice(jpn)+ " 식당으로 가시죠" )
-if country == "중국" :
+elif country == "중국" :
     print (random.choice(chn)+" 식당으로 가시죠" )
+else :
+    print ("한국, 중국, 일본 중 하나를 입력해 주세요")
