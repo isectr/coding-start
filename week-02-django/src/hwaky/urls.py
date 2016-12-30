@@ -17,6 +17,10 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^blog/', include('blog.urls')),
+    url(r'^', include('blog.urls')),
     url(r'^admin/', admin.site.urls),
 ]
+
+# r'^'
+#정규식, 레귤러 익스프레션.
+# 사용자가 입력하는 패턴을 통제하기 위한 툴
